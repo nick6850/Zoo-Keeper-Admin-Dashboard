@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Zoo Keeper Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4af07bf3e0.js" crossorigin="anonymous"></script> 
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="title-container">
+        <img id='logo' src="logo.png" alt="logo">
+        <h1 class="dashboard-name">Zoo Admin</h1>
+        </div>
+        <ul>
+            <li><i class="fas fa-home"></i><span>Home</span></li>
+            <li><i class="fas fa-tasks"></i><span>Tasks</span></li>
+            <li class="active"><i class="fas fa-user"></i><span>Profile</span></li>
+            <li><i class="fas fa-envelope"></i><span>Messages</span></li>
+            <li><i class="fas fa-cog"></i><span>Settings</span></li>
+        </ul>
+    </div>
+
+    <div class="topbar">
+        <div class="search-bar">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Search...">
+            <button>Search</button>
+        </div>
+        <div class="user-profile">
+            <img src="profile.png" alt="Profile Photo" class="small-profile-photo">
+            <span class="name">John Doe</span>
+        </div>
+    </div>
+
+    <div class="profile">
+        <div class="about">
+            <img src="profile.png" alt="Zookeeper's Photo" class="profile-photo">
+            <div class="greetings">
+                <p>Hi there, </p>
+                <h2 class="username">Joe Doe (@zookeeper)</h2>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button class="new-button">New Task</button>
+            <button class="upload-button">Upload Photo</button>
+            <button class="share-button">Share Animal Facts</button>
+        </div>
+    </div>
+        <h3 id="task-title">Your Pending Tasks:</h3>
+        <div class="tasks">
+            <div class="task">
+                <h4>Feed the lions</h4>
+                <p>Make sure the lions are well-fed with their favorite organic steaks. Watch out for their hungry roars!</p>
+                <div class="icons">
+                    <i class="fas fa-check"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-share"></i>
+                </div>
+            </div>
+            <div class="task">
+                <h4>Clean the elephant enclosure</h4>
+                <p>Get ready for an adventure into the elephant realm. Don't forget to bring an extra hose to handle their playful splashes!</p>
+                <div class="icons">
+                    <i class="fas fa-check"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-share"></i>
+                </div>
+            </div>
+            <div class="task">
+                <h4>Give the mischievous monkeys a puzzle</h4>
+                <p>Time to challenge the clever monkeys with mind-boggling puzzles. They love solving mysteries while swinging around!</p>
+                <div class="icons">
+                    <i class="fas fa-check"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-share"></i>
+                </div>
+            </div>
+            <div class="task">
+                <h4>Teach the parrots a new catchy phrase</h4>
+                <p>Help the parrots become the talk of the zoo by teaching them a new catchy phrase. Let's give visitors some delightful surprises!</p>
+                <div class="icons">
+                    <i class="fas fa-check"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-share"></i>
+                </div>
+            </div>
+
+            <div class="task">
+                <h4>Take the reptiles out for some sunshine</h4>
+                <p>The reptiles need their dose of Vitamin D. Take them out to bask in the sun and watch them soak up the warmth.</p>
+                <div class="icons">
+                    <i class="fas fa-check"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-share"></i>
+                </div>
+            </div>
+            <div class="task">
+                <h4>Prepare a surprise party for the panda twins</h4>
+                <p>It's the panda twins' birthday! Decorate their enclosure, organize panda-friendly treats, and get ready for a bamboo-filled party!</p>
+                <div class="icons">
+                    <i class="fas fa-check"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-share"></i>
+                </div>
+            </div>
+        </div>
+        
+        <div class="announcements">
+            <h3>Announcements:</h3>
+            <div class="announcement-item">
+                <h4>Monkey Stand-up Comedy Show</h4>
+                <p>Don't miss the hilarious monkey stand-up comedy show every Friday at 3 PM. Prepare for a barrel of laughs!</p>
+            </div>
+            <div class="announcement-item">
+                <h4>Penguin Ice-skating Extravaganza</h4>
+                <p>Get ready to slide and glide with our talented penguins in their ice-skating show next week. It's ice-tastic!</p>
+            </div>
+            <div class="announcement-item">
+                <h4>Elephant Spa Day</h4>
+                <p>The elephants are pampering themselves with a spa day! Witness their mud baths and trunk splashes for ultimate relaxation.</p>
+            </div>
+        </div>
+        
+        <div class="trending">
+            <h3>Trending:</h3>
+            <div class="trending-profile">
+                <img src="boss.png" alt="CEO's Photo">
+                <div class="profile-info">
+                    <span class="login">@mrsmith</span>
+                    <span class="name">Mr. Smith (CEO)</span>
+                </div>
+            </div>
+            <div class="trending-profile">
+                <img src="chimp.png" alt="Animal's Photo">
+                <div class="profile-info">
+                    <span class="login">@charliechimp</span>
+                    <span class="name">Charlie the Chimp</span>
+                </div>
+            </div>
+            <div class="trending-profile">
+                <img src="lion.png" alt="Animal's Photo">
+                <div class="profile-info">
+                    <span class="login">@thelionking</span>
+                    <span class="name">The Lion King</span>
+                </div>
+            </div>
+            <div class="trending-profile">
+                <img src="parrot.png" alt="Animal's Photo">
+                <div class="profile-info">
+                    <span class="login">@pollyparrot</span>
+                    <span class="name">Polly the Parrot</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

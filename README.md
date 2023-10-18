@@ -1,2 +1,2 @@
 # Zoo Keeper Admin Dashboard with CSS Grid
-  This project focuses on enhancing my CSS Grid skills by building an admin dashboard for a zoo. 
+  This project focuses on enhancing my CSS Grid skills by building an admin dashboard for an **imaginary** zoo keeper. The project showcases a **responsive layout** with features like a sidebar navigation menu, user profile section, and task management.
